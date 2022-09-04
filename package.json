@@ -1,0 +1,25 @@
+{
+  "name": "bank-scraper",
+  "version": "1.0.0",
+  "description": "project for scraping bank data using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoslack/bank-scrapper.git"
+  },
+  "author": "Hoslack Ochieng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoslack/bank-scrapper/issues"
+  },
+  "homepage": "https://github.com/hoslack/bank-scrapper#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "puppeteer": "^17.1.0"
+  }
+}
