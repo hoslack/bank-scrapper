@@ -7,3 +7,5 @@ interface IAccount {
     ledgerBalance: number;
     availableBalance: number;
 }
+
+export default IAccount;

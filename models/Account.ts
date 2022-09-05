@@ -1,6 +1,7 @@
 import mongoose from "mongoose"
+import { IAccount } from "../interfaces"
 
-const accountSchema = new mongoose.Schema({
+const accountSchema = new mongoose.Schema<IAccount>({
     accountNumber: {
         type: String,
         required: false

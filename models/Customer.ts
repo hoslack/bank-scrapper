@@ -1,6 +1,7 @@
 import mongoose from "mongoose"
+import { ICustomer } from "../interfaces"
 
-const customerSchema = new mongoose.Schema({
+const customerSchema = new mongoose.Schema<ICustomer>({
     name: {
         type: String,
         required: true
@@ -18,7 +19,7 @@ const customerSchema = new mongoose.Schema({
         required: true
     },
     bvn: {
-        type: Date,
+        type: String,
         required: true
     }
 })
